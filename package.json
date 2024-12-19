@@ -1,0 +1,15 @@
+{
+  "name": "safe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "concat-cli -f src/core.js -o build/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concat-cli": "^4.0.0"
+  }
+}
