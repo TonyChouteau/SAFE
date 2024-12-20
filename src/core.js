@@ -113,3 +113,4 @@ Runner.prototype = {
         this.error = message;
     }
 }
+window.runner = new Runner(window.playbook);
