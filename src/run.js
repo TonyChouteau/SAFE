@@ -1,1 +1,0 @@
-window.runner = new Runner(window.playbook);
